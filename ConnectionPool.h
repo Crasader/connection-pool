@@ -19,10 +19,11 @@
  *
  * Connection and ConnectionFactory are virtual classes that should be overridden to their actual type.
  *
- * NOTE: To avoid using templates AND inheritance at the same time in the ConnectionFactory, ConnectionFactory::create must create a derved type 
- * but return the base class. 	
+ * NOTE: To avoid using templates AND inheritance at the same time in the ConnectionFactory, ConnectionFactory::create must create a derved type
+ * but return the base class.
  */
 
+#pragma once
 
 // Define your custom logging function by overriding this #define
 #ifndef _DEBUG

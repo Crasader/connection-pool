@@ -13,6 +13,8 @@
  * limitations under the License.
  */
 
+#pragma once
+
 #include "ConnectionPool.h"
 
 namespace active911 {
